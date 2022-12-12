@@ -2,19 +2,19 @@
 /**
  * main - prints the alphabet in lowercase
  *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char c = 'a';
+	char c;
 
-	while (c <= '2')
-	{
-		if (c != 'e' && c != 'q')
-		{
-			putchar(c);
+	c= 'a';
+	while
+		(c <= 'z') {
+			if ((c != 'q' && c != 'e') && c <= 'z')
+				putchar(c);
+			c++;
 		}
-		c++;
-	}
 	putchar('\n');
 	return (0);
 }
