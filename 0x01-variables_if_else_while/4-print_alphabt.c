@@ -2,15 +2,14 @@
 /**
  * main - prints the alphabet in lowercase
  *
- * Return: Always 0 (Success)
  */
 int main(void)
 {
 	char c = 'a';
 
-	while (c <= 'z')
+	while (c <= '2')
 	{
-		if (c !='e' && c != 'q')
+		if (c != 'e' && c != 'q')
 		{
 			putchar(c);
 		}
