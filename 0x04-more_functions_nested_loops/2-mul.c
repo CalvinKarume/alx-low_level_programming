@@ -1,15 +1,12 @@
 #include "main.h"
 
 /**
- * _isdigit -checks for a digit (0 through 9)
- * @c: input
- * Return: 1 if c is a digit, 0 otherwise
+ * mul - function that multiples two integers
+ * @a: first input
+ * @b: second input
+ * Return: multiplication result
  */
-int _isdigit(int c)
+int mul(int a, int b)
 {
-	if ((c >= 48) && (c <= 57))
-		return (1);
-	else
-		return(0);
+	return (a * b);
 }
-
