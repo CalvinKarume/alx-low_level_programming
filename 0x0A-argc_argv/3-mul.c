@@ -10,14 +10,19 @@
  */
 int main(int argc, char *argv[])
 {
-	int a, b;
-	if (argc ==1)
+	int result, num1, num2;
+
+	if (argc < 3 || argc > 3)
 	{
-		a = _atoi(argv[1]);
-		b = _atoi(argv[2]);
-		printf("%d\n", a *b);
-		return (0);
+		printf("Error\n");
+		return (1);
 	}
-	printf("Error\n");
-	return (1);
+
+	num1 = _atoi(argv[1]);
+	num2 = _atoi(argv[2]);
+	result = num1 * num2;
+
+	printf("%d\n", result);
+
+	return (0);
 }
