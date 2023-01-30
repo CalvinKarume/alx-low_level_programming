@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-void first(void) __attribute__ ((constructor));
+void __attribute__((constructor)) hare(void);
 
 /**
- * Hare - prints a string before the main
- * 	 function is executed
+ * hare - prints a string before the main
+ * function is executed
  */
 void hare(void)
 {
